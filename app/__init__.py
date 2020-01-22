@@ -10,11 +10,7 @@ def create_app():
     """
     app = Flask(__name__)
 
-    @app.route('/hello')
-    def hello():
-        """
-            Hello World :)
-        """
-        return "Hello World!"
+    from .main.controllers import main
+    app.register_blueprint(main)
 
     return app
