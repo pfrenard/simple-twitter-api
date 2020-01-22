@@ -12,6 +12,7 @@ flask-testing = "*"
 flask = "*"
 flask-api = "*"
 gunicorn = "*"
+flask-restplus = "*"
 
 [requires]
 python_version = "3.7"
