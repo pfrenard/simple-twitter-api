@@ -10,5 +10,4 @@ def home():
     """
         home
     """
-    return "Hello from a Blueprint!"
-
+    return "Goodbye"
