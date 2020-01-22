@@ -4,9 +4,9 @@
 
 class TweetRepository():
     def __init__(self):
-        self.__clear()
+        self.clear()
 
-    def __clear(self):
+    def clear(self):
         self.tweets = []
         self.next_id = 0
 
